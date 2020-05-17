@@ -40,3 +40,25 @@ align-self: hover; orange
 .navbar-light  .navbar-nav .nav-link:hover{
     color: whitesmoke
 }
+
+.form-section form .form-fields input,
+.form-section form .form-fields textarea {
+    margin-bottom: 15px;
+    
+}
+.form-section .form-fields input [type="submit"]{
+    width: 100%;
+}
+#contact {
+    background-color: whitesmoke;
+}
+@media (max-width: 992px) {
+
+     section {
+         padding: 60px 0;
+     }
+h3 {
+    margin-top: 25px;
+}
+
+}
